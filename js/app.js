@@ -46,3 +46,11 @@ for (let i = 0; i < listaMembriTeam.length; i++) {
 
     console.log(datiMembri.nome, datiMembri.cognome + ` - ${datiMembri.ruolo}`);
 }
+
+const teamContainer = document.querySelector(".team-container");
+
+function createCard (member) {
+    let teamCard = document.createElement("div");
+    teamCard.innerText = "This is a paragraph";
+}
+
